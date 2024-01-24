@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
 }
-.content{
+.content {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -17,10 +17,10 @@
   gap: 1rem;
   width: 40rem;
 }
-.logo{
+.logo {
   width: 15rem;
 }
-.title{
+.title {
   color: var(--color-white);
   font-family: var(--font-kanit), sans-serif;
   font-weight: 400;
@@ -28,7 +28,7 @@
   text-transform: uppercase;
   text-align: center;
 }
-.text{
+.text {
   color: var(--color-white);
   font-family: var(--font-lato), sans-serif;
   font-style: italic;
@@ -37,16 +37,16 @@
   text-align: center;
   line-height: 1.2;
 }
-.strong{
+.strong {
   font-weight: 700;
 }
-.boxButtons{
+.boxButtons {
   margin: 2rem 0;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.socialButton{
+.socialButton {
   background-color: var(--color-white);
   border: 0.1rem solid var(--color-black);
   border-radius: 1rem;
@@ -57,15 +57,15 @@
   gap: 0.5rem;
   filter: drop-shadow(0px 5px 0px rgba(0, 0, 0, 0.5));
 }
-.socialButton:hover{
+.socialButton:hover {
   filter: drop-shadow(0px 3px 0px rgba(0, 0, 0, 0.5));
   transform: scale(0.99);
 }
-.socialButton:active{
+.socialButton:active {
   filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.5));
   transform: scale(0.98);
 }
-.iconButtonCircle{
+.iconButtonCircle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,12 +75,13 @@
   width: 2rem;
   height: 2rem;
 }
-.iconButton{
+.iconButton {
   width: auto;
   height: 1rem;
-  filter: brightness(0) saturate(100%)  invert(100%) sepia(0%) saturate(7437%) hue-rotate(261deg) brightness(101%) contrast(97%);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7437%) hue-rotate(261deg)
+    brightness(101%) contrast(97%);
 }
-.nameButton{
+.nameButton {
   font-family: var(--font-lato), sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -88,21 +89,25 @@
   font-size: 1.5rem;
 }
 @media (max-width: 576px) {
-  .content{
+  .main {
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  /* .content {
     width: 25rem;
   }
-  .logo{
+  .logo {
     width: 12rem;
   }
-  .title{
+  .title {
     font-size: 2.2rem;
   }
-  .text{
-     font-size: 1.3rem;
+  .text {
+    font-size: 1.3rem;
   }
-  .socialButton{
+  .socialButton {
     width: 20rem;
     padding-left: 25%;
     padding-right: 25%;
-  }
+  } */
 }
