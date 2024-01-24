@@ -29,37 +29,37 @@ export default function Home() {
           <SocialButton
             nameButton="Instagram"
             icon="instagram"
-            link="#"
+            link="https://www.instagram.com/movimento.ceara?igsh=ZmN3bzZ0c3ZsZnE3"
           />
            <SocialButton
             nameButton="Facebook"
             icon="facebook"
-            link="#"
+            link="https://www.facebook.com/MOVIMENTO.CEARA?mibextid=LQQJ4d"
           />
           <SocialButton
             nameButton="Tiktok"
             icon="tiktok"
-            link="#"
+            link="http://www.tiktok.com/@movimentocearaa"
           />
           <SocialButton
             nameButton="Youtube"
             icon="youtube"
-            link="#"
+            link="https://www.youtube.com/@movimentoceara2006"
           />
           <SocialButton
             nameButton="Whatsapp"
             icon="whatsapp"
-            link="#"
+            link="http://wa.me//5588981134536"
           />
           <SocialButton
             nameButton="Blog"
             icon="blogger"
-            link="#"
+            link="https://movimentoceara.blogspot.com/"
           />
           <SocialButton
             nameButton="Threads"
             icon="threads"
-            link="#"
+            link="https://www.threads.net/@movimento.ceara "
           />
         </div>
       </div>
